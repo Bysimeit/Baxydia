@@ -1,4 +1,9 @@
 server:
-  port: 8081
+  port: 8082
   servlet:
     contextPath: /Baxydia
+spring:
+  datasource:
+    password: password
+    url: jdbc:mysql://localhost:3306/advancedwebdb?user=root
+    driverClassName: com.mysql.cj.jdbc.Driver

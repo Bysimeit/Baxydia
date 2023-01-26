@@ -1,0 +1,311 @@
+* {
+    font-family: Calibri;
+}
+
+.header {
+    text-align: center;
+    overflow: hidden;
+    background-color: #282A35;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    padding-left: 8px;
+    margin-left: -8px;
+}
+
+.headerContent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.headerLeft {
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+.headerMiddle {
+    width: 30px;
+    height: 30px;
+    -webkit-filter: invert(100%);
+    margin-bottom: -10px;
+    margin-top: -10px;
+    margin-left: 75%;
+}
+
+.headerBtn{
+    width: 20px;
+    height: 20px;
+}
+
+.headerLogin {
+    float: right;
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.headerRegister {
+    float: right;
+    margin-right: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+}
+
+.mainContainer {
+    margin-top: 60px;
+    background-color: #E7E9EB;
+}
+
+.homeIntroduction {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.homeFirstPara {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.homeCategory {
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.homeSection {
+    margin-left: 10px;
+}
+
+.homeCategoryTitle {
+    text-align: center;
+}
+
+.homeBoardGames {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeItemContainer {
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+    height: 170px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.homeItemName {
+    text-align: center;
+}
+
+.homeItemPrice {
+    text-align: center;
+}
+
+.homeItemButton {
+    background-color: lightskyblue;
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.homeItemButtonTitle {
+    color: blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+
+.homeItemButtonLink {
+    text-decoration: none;
+}
+
+.checkoutIntroduction {
+    width: 15%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.checkoutTitle {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.checkoutBasket {
+    margin-left: 25px;
+}
+
+.checkoutBasketTitle {
+    text-align: center;
+}
+
+.checkoutTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checkoutLink {
+    text-decoration: none;
+}
+
+.checkoutChangeQuantity {
+    width: 50px;
+}
+
+.checkoutCancelMessage {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.checkoutSuccessMessage {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+}
+table th {
+    background-color: #54585d;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #54585d;
+}
+table td {
+    color: #636363;
+    border: 1px solid #dddfe1;
+}
+table tr {
+    background-color: #f9fafb;
+}
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.checkoutPurchase {
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    height: 50px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+.checkoutPurchasePara {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.checkoutPurchaseNotActive {
+    background-color: #54585d;
+}
+
+.itemContainer {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 550px;
+    height: 450px;
+}
+
+.itemName {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.itemDescriptionTitle {
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: -12px;
+}
+
+.itemDescription {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.itemPriceTitle {
+    text-align: center;
+}
+
+.itemPrice {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.itemForm {
+    text-align: center;
+}
+
+.itemNumberInput {
+    width: 40px;
+}
+
+.itemFormSubmit {
+    margin-top: 20px;
+    background-color: lightskyblue;
+}
+
+.paymentPayButton {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.paymentPrice {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#AboutUsText {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
